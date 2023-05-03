@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>Sum Calculator</title>
+        <link rel="stylesheet" href = "style.css"/>
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+        <h1>Integer Sum Calculator</h1>
+        <form>
+            <label for="number1">Number 1: </label>
+            <input type="text" id="number1" name="number1" oninput="CheckInput(number1)">
+            <br>
+            <label for="number2">Number 2: </label>
+            <input type="text" id="number2" name="number2" oninput="CheckInput(number2)">
+            <br>
+            <button class="CalculateButtonClass" type="button" onclick="CalculateSum()"> Calculate </button>
+          </form>
+          <br>
+          <div class="ResultClass" id="Result"></div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background-color: #f0f0f0;
+  }
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center
+}  
+
+input[type="text"] {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  }
+  
+.CalculateButtonClass {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  }
+
+.ResultClass {
+  text-align: center;
+  font-size: 18px;
+}
